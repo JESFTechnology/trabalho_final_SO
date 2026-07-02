@@ -57,7 +57,7 @@ def ler_json(json_str):
         processos = []
         for p in data['processes']:
             proc = PCB(p['pid'], p['arrival_time'], p['cpu_time'], p['priority'], p['threads'])
-            processos = proc
+            processos.append(proc)   # adiciona cada processo na lista
         return processos
 
 def simular_fcfs_dois_niveis(processos_originais):
