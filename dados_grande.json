@@ -1,0 +1,206 @@
+{
+  "processes": [
+    {
+      "pid": "P1",
+      "arrival_time": 0,
+      "cpu_time": 15,
+      "priority": 2,
+      "threads": [
+        {
+          "tid": "T1",
+          "arrival_time": 0,
+          "cpu_time": 5,
+          "priority": 1
+        },
+        {
+          "tid": "T2",
+          "arrival_time": 0,
+          "cpu_time": 3,
+          "priority": 2
+        },
+        {
+          "tid": "T3",
+          "arrival_time": 1,
+          "cpu_time": 7,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "pid": "P2",
+      "arrival_time": 2,
+      "cpu_time": 10,
+      "priority": 1,
+      "threads": [
+        {
+          "tid": "T4",
+          "arrival_time": 2,
+          "cpu_time": 6,
+          "priority": 1
+        },
+        {
+          "tid": "T5",
+          "arrival_time": 3,
+          "cpu_time": 4,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "pid": "P3",
+      "arrival_time": 4,
+      "cpu_time": 20,
+      "priority": 3,
+      "threads": [
+        {
+          "tid": "T6",
+          "arrival_time": 4,
+          "cpu_time": 8,
+          "priority": 2
+        },
+        {
+          "tid": "T7",
+          "arrival_time": 5,
+          "cpu_time": 5,
+          "priority": 1
+        },
+        {
+          "tid": "T8",
+          "arrival_time": 6,
+          "cpu_time": 7,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "pid": "P4",
+      "arrival_time": 6,
+      "cpu_time": 18,
+      "priority": 2,
+      "threads": [
+        {
+          "tid": "T9",
+          "arrival_time": 6,
+          "cpu_time": 9,
+          "priority": 2
+        },
+        {
+          "tid": "T10",
+          "arrival_time": 7,
+          "cpu_time": 4,
+          "priority": 1
+        },
+        {
+          "tid": "T11",
+          "arrival_time": 8,
+          "cpu_time": 5,
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "pid": "P5",
+      "arrival_time": 8,
+      "cpu_time": 12,
+      "priority": 1,
+      "threads": [
+        {
+          "tid": "T12",
+          "arrival_time": 8,
+          "cpu_time": 5,
+          "priority": 1
+        },
+        {
+          "tid": "T13",
+          "arrival_time": 9,
+          "cpu_time": 3,
+          "priority": 2
+        },
+        {
+          "tid": "T14",
+          "arrival_time": 10,
+          "cpu_time": 4,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "pid": "P6",
+      "arrival_time": 10,
+      "cpu_time": 25,
+      "priority": 4,
+      "threads": [
+        {
+          "tid": "T15",
+          "arrival_time": 10,
+          "cpu_time": 10,
+          "priority": 4
+        },
+        {
+          "tid": "T16",
+          "arrival_time": 11,
+          "cpu_time": 8,
+          "priority": 3
+        },
+        {
+          "tid": "T17",
+          "arrival_time": 12,
+          "cpu_time": 7,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "pid": "P7",
+      "arrival_time": 12,
+      "cpu_time": 14,
+      "priority": 2,
+      "threads": [
+        {
+          "tid": "T18",
+          "arrival_time": 12,
+          "cpu_time": 5,
+          "priority": 1
+        },
+        {
+          "tid": "T19",
+          "arrival_time": 13,
+          "cpu_time": 4,
+          "priority": 2
+        },
+        {
+          "tid": "T20",
+          "arrival_time": 14,
+          "cpu_time": 5,
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "pid": "P8",
+      "arrival_time": 15,
+      "cpu_time": 16,
+      "priority": 3,
+      "threads": [
+        {
+          "tid": "T21",
+          "arrival_time": 15,
+          "cpu_time": 6,
+          "priority": 2
+        },
+        {
+          "tid": "T22",
+          "arrival_time": 16,
+          "cpu_time": 5,
+          "priority": 3
+        },
+        {
+          "tid": "T23",
+          "arrival_time": 17,
+          "cpu_time": 5,
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}
